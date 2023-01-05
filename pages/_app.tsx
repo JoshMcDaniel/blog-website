@@ -1,7 +1,8 @@
 import '../styles/globals.css';
 import 'prismjs/themes/prism-tomorrow.css';
+import { AppProps } from 'next/dist/shared/lib/router/router';
 
-function MyApp({ Component, pageProps }) {
+function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <span className="theme-bejamas" />
@@ -10,4 +11,4 @@ function MyApp({ Component, pageProps }) {
   );
 }
 
-export default MyApp;
+export default App;

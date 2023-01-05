@@ -1,17 +1,7 @@
 {
   "name": "nextjs-blog-theme",
-  "description": "A customizable Next.js and Tailwind blog starter. Designed by the Bejamas agency.",
-  "author": "Bejamas and Netlify Inc.",
-  "contributors": [
-    "Charlie Gerard",
-    "Prince Wilson",
-    "Tara Manicsic",
-    "Thom Krupa"
-  ],
-  "homepage": "https://github.com/netlify-templates/nextjs-blog-theme",
-  "bugs": {
-    "url": "https://github.com/netlify-templates/nextjs-blog-theme/issues"
-  },
+  "description": "A blogging and story website.",
+  "author": "Josh McDaniel",
   "scripts": {
     "dev": "next",
     "dev:watch": "next-remote-watch ./posts",
@@ -35,12 +25,14 @@
     "remark-gfm": "^3.0.1"
   },
   "devDependencies": {
+    "@types/node": "^18.11.18",
+    "@types/react": "^18.0.26",
     "autoprefixer": "^10.4.0",
     "eslint": "<9.0.0",
     "eslint-config-next": "12.3.4",
     "eslint-config-prettier": "^8.3.0",
-    "netlify-plugin-cypress": "~2.2.0",
     "postcss": "^8.4.4",
-    "tailwindcss": "^3.0.0"
+    "tailwindcss": "^3.0.0",
+    "typescript": "^4.9.4"
   }
 }

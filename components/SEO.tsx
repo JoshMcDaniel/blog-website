@@ -1,6 +1,9 @@
 import Head from 'next/head';
 
-export default function SEO({ title, description }) {
+type Props = { title: string; description: string };
+
+export default function SEO(props: Props) {
+  const { title, description } = props;
   return (
     <Head>
       <title>{title}</title>
