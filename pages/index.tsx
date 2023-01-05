@@ -7,14 +7,10 @@ import Layout, { GradientBackground } from '../components/Layout';
 import ArrowIcon from '../components/ArrowIcon';
 import { getGlobalData } from '../utils/global-data';
 import SEO from '../components/SEO';
-import ThemeSwitcher from '../components/ThemeSwitcher';
 
 export default function Index({ posts, globalData }) {
   return (
     <Layout>
-      <div className="absolute top-4 right-4">
-        <ThemeSwitcher />
-      </div>
       <SEO title={globalData.name} description={globalData.blogTitle} />
       <Header name={globalData.name} />
       <main className="w-full">

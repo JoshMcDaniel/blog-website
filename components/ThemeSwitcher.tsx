@@ -3,7 +3,7 @@ import SunIcon from '../icons/SunIcon';
 
 export default function ThemeSwitcher() {
   return (
-    <div className="flex bg-white justify-center dark:bg-gray-900 rounded-3xl p-1">
+    <div className="flex bg-white justify-center dark:bg-gray-900 rounded-3xl p-1 mt-8">
       <button
         type="button"
         aria-label="Use Dark Mode"

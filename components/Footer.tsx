@@ -1,3 +1,5 @@
+import ThemeSwitcher from './ThemeSwitcher';
+
 type Props = { copyrightText: string };
 
 export default function Footer(props: Props) {
@@ -6,6 +8,7 @@ export default function Footer(props: Props) {
       <p className="dark:text-white uppercase mb-3 font-bold opacity-60">
         {props.copyrightText}
       </p>
+      <ThemeSwitcher />
     </footer>
   );
 }
